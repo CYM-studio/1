@@ -1,0 +1,7 @@
+s = input()
+if s[-2:] == 'er' or s[-2:]== 'ly':
+    print(s[:-2])
+elif s[-3:] =='ing':
+    print(s[:-3])
+else:
+    print(s)
